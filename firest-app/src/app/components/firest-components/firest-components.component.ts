@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class FirestComponentsComponent {
 
+  name: String = "Alexandre";
+  job: String = "Programador FullStack";
+  age: number = 35;
+
+
 }
