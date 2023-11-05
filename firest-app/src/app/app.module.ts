@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirestComponentsComponent } from './components/firest-components/firest-components.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
+import { DirectivesComponent } from './components/directives/directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirestComponentsComponent,
-    ParentDataComponent
+    ParentDataComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
